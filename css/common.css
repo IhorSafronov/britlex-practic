@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body._lock {
+    overflow: hidden;
+}
+
+:root {
+    --background-link-hover: #000000;
+    --background-coast: #EEEEEE;
+    --background-body: #ffffff;
+    --background-card: #F5F5F5;
+    --background-btn: #263238;
+    --background-btn-light: #727f86;
+    --text-black-btn: #FFFFFF;
+    --text-white-btn: #000000;
+    --text-logo-color: #939393;
+    --text-color-hover: #ffffff;
+    --text-number-color: #2A3246;
+    --coast-text-color: #546269;
+    --borger-color: #263238;
+    --p-text-color: #8F95A5;
+    --head-one-two-color: #000000;
+    --head-other-color: #263238;
+    @import url(https://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,500,600,700,800,900);
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+.main-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 80px;
+    color: var(--head-one-two-color);
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.btn {
+    height: 60px;
+    max-width: 440px;
+    border-radius: 5px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: var(--background-btn-light);
+}
+
+.btn:active {
+    background-color: var(--background-coast);
+}
+
+.black-btn {
+    background-color: var(--background-btn);
+}

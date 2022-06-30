@@ -1,0 +1,77 @@
+/* .prising {
+}
+.main-title {
+} */
+
+.prising-catd {
+    margin-bottom: 50px;
+}
+
+
+/* .self-study {} */
+
+
+/* .image-self-study {} */
+
+.image-card-prising {
+    padding: 0 20px;
+}
+
+.prising-head {
+    margin: 20px 20px 30px 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--head-other-color);
+}
+
+
+/* .self-title {} */
+
+.prising-text {
+    text-align: justify;
+    margin: 0px 20px 30px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--p-text-color);
+}
+
+
+/* .text-self {} */
+
+.prising-count-card {
+    background-color: var(--background-coast);
+    border-radius: 5px;
+    display: flex;
+    height: 40px;
+    max-width: 170px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.prising-count {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: var(--p-text-color);
+}
+
+.prising-count span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: var(--head-other-color);
+}
+
+
+/* .live-online {}
+
+.personal-tuition {} */

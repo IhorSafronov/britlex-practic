@@ -1,0 +1,38 @@
+/* .about-us-imge {} */
+
+.about-image {
+    padding: 0 20px 30px 20px;
+}
+
+
+/* .about-title {} */
+
+.about-us-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+    color: var(--p-text-color);
+    padding: 0 20px 30px 20px;
+}
+
+.about-us-count {
+    text-align: center;
+}
+
+.count {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 80px;
+    color: var(--text-number-color);
+}
+
+.count-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: var(--p-text-color);
+}
